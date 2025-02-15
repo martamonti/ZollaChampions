@@ -30,7 +30,7 @@
   --gray-color: #909090;
   --link-color: #404040;
   --p-color: #666262;
-  --base-font-family: 'Plain', sans-serif;
+  --base-font-family: 'Orbitron', sans-serif;
   --font-weight-bold: bold;
   --font-weight-normal: normal;
   --font-weight-light: 300;
@@ -322,7 +322,7 @@ a:focus {
      HERO
   -----------------------------------------*/
 .hero {
-  background-image: url(../images/home.jpg);
+  background-image: url(../images/1A_HERO.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
