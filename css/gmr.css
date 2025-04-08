@@ -440,10 +440,10 @@ a:focus {
   background: var(--about-bg-color);
 }
 
-.  {
+/* .  {
   border-left: 2px solid;
   padding-left: 3.5rem;
-}
+} */
 
 .about-working-hours strong {
   color: var(--white-color);
