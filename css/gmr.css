@@ -707,3 +707,8 @@ div#slider figure {
     display: block;
   }
 }
+
+
+body > nav > div {
+  flex-wrap: nowrap !important;
+}
