@@ -620,6 +620,7 @@ button#submit-button:hover {
   .break-in-2 {
     column-count: 2
   }
+
 }
 
 
@@ -684,4 +685,25 @@ div#slider figure {
   position: relative;
   z-index: 1;
   color: white;
+}
+
+
+/* Per dispositivi mobili, nascondi l'immagine desktop e mostra quella telefono */
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .telefono {
+    display: block;
+  }
+}
+
+/* Per dispositivi desktop, nascondi l'immagine telefono e mostra quella desktop */
+@media only screen and (min-width: 769px) {
+  .telefono {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
 }
