@@ -712,3 +712,9 @@ div#slider figure {
 body > nav > div {
   flex-wrap: nowrap !important;
 }
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: transparent;
+  border: none;
+}
+
